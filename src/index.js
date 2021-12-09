@@ -36,5 +36,16 @@
 // const message2 = `私の名前は${name}です。年齢は${age}です`;
 // console.log(message2);
 
-const sayHello = (name = "ゲスト") => console.log(`こんにちは!${name}さん!`);
-sayHello();
+// const sayHello = (name = "ゲスト") => console.log(`こんにちは!${name}さん!`);
+// sayHello();
+
+// const arr1 = [1, 2];
+// console.log(arr1);
+// console.log(...arr1);
+// const sumFunc = (num1, num2) => console.log(num1 + num2);
+// sumFunc(arr1[0], arr1[1]);
+// sumFunc(...arr1);
+
+// const arr2 = [1, 2, 3, 4, 5];
+// const [num1, num2, ...arr3] = arr2;
+// console.log(num1);
