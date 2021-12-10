@@ -49,3 +49,12 @@
 // const arr2 = [1, 2, 3, 4, 5];
 // const [num1, num2, ...arr3] = arr2;
 // console.log(num1);
+
+function sum(x, y, z) {
+  return x + y + z;
+}
+
+const numbers = [1, 2, 3];
+const result = sum(...numbers);
+
+console.log(result);
